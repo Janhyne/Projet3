@@ -1,0 +1,108 @@
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('Roboto-Bold-webfont.eot');
+    src: url('Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Bold-webfont.woff2') format('woff2'),
+         url('Roboto-Bold-webfont.woff') format('woff'),
+         url('Roboto-Bold-webfont.ttf') format('truetype'),
+         url('Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	font-family: 'robotobold', sans-serif;
+	padding: 25px 0;
+	margin: 0;
+	background-color: #579C87;
+	text-align: center;
+}
+
+h1{
+	color: #fdcb46;
+}
+#flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 100%;
+    height: 150px;
+    margin: 90px 0px;
+}
+
+.item1{
+  background-color: #fcdfdb;
+  text-align:center;
+  padding: 5px;
+  width: 200px;
+  height: 250px;
+  margin-top: 10px;
+  line-height: 150px; 
+  color: #3c1218;
+  font-weight: bold;
+  font-size: 1em; 
+  text-align: center;
+  box-shadow: 6px 6px 6px #ededed;
+}
+
+.item2{
+  background-color: #fff5fe;
+  text-align:center; 
+  padding: 5px;
+  width: 200px;
+  height: 250px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: #3c1218;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  box-shadow: 6px 6px 6px #ededed;
+}
+
+.item3{
+  background-color: #f9f9f9;
+  padding: 5px;
+  width: 200px;
+  height: 250px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: #3c1218;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  box-shadow: 6px 6px 6px #ededed;
+}
+
+.item4{
+  background-color: #fdfffd;
+  padding: 5px;
+  width: 200px;
+  height: 250px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: #3c1218;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  box-shadow: 6px 6px 6px #ededed;
+}
+
+footer{
+	padding: 1rem;
+	text-align: left;
+	background-color: #579C87;
+	font-family: 'robotobold', sans-serif;
+	font-size: 1em;
+	text-align: center;
+	color: #fdcb46;
+}
