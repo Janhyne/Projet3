@@ -27,6 +27,7 @@ header{
 
 h1{
 	color: #fdcb46;
+  letter-spacing: 0.1px;
 }
 #flex-container {
     display: flex;
@@ -97,12 +98,40 @@ h1{
   box-shadow: 6px 6px 6px #ededed;
 }
 
+aside{
+  padding: 0.1rem 0;
+  background-color: #579C87;
+  width: 200px;
+  border-radius: 10px;
+  font-family: 'robotobold', sans-serif;
+  font-size: 1.3em;
+  color: #fdcb46;
+  text-align: center;
+}
+
 footer{
-	padding: 1rem;
-	text-align: left;
+	padding: 0.3rem 0;
 	background-color: #579C87;
 	font-family: 'robotobold', sans-serif;
 	font-size: 1em;
-	text-align: center;
-	color: #fdcb46;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
+
+p{
+  color: #fdcb46;
+  padding: 0.5rem 0; 
+  margin: 15px;
+  text-align: center;
+  line-height: 1em;
+}
+
+.gauche{
+  float: left;
+}
+
+.droite{
+  float: right;
+}
+
