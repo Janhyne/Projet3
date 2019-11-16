@@ -57,13 +57,14 @@ h1{
 
 .item2{
   background-color: #fff5fe;
+  font-family: 'Gabriela', serif;
   text-align:center; 
   padding: 5px;
   width: 200px;
   height: 250px;
   margin-top: 10px;
   line-height: 150px;
-  color: #3c1218;
+  color: #d8852e;
   font-weight: bold;
   font-size: 1em;
   text-align: center;
@@ -72,12 +73,13 @@ h1{
 
 .item3{
   background-color: #f9f9f9;
+  font-family: 'Alex Brush', sans-serif;
+  color: #0432df;
   padding: 5px;
   width: 200px;
   height: 250px;
   margin-top: 10px;
   line-height: 150px;
-  color: #3c1218;
   font-weight: bold;
   font-size: 1em;
   text-align: center;
@@ -86,12 +88,12 @@ h1{
 
 .item4{
   background-color: #fdfffd;
+  color: #74c058;
   padding: 5px;
   width: 200px;
   height: 250px;
   margin-top: 10px;
   line-height: 150px;
-  color: #3c1218;
   font-weight: bold;
   font-size: 1em;
   text-align: center;
