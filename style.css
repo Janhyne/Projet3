@@ -47,10 +47,10 @@ h1{
   width: 200px;
   height: 250px;
   margin-top: 10px;
-  line-height: 150px; 
+  font-family: 'Zhi Mang Xing', cursive;
+  line-height: 30px; 
   color: #3c1218;
-  font-weight: bold;
-  font-size: 1em; 
+  font-size: 1.5em; 
   text-align: center;
   box-shadow: 6px 6px 6px #ededed;
 }
@@ -58,14 +58,14 @@ h1{
 .item2{
   background-color: #fff5fe;
   font-family: 'Gabriela', serif;
-  text-align:center; 
   padding: 5px;
   width: 200px;
   height: 250px;
   margin-top: 10px;
-  line-height: 150px;
-  color: #d8852e;
-  font-weight: bold;
+  line-height: 30px;
+  background: linear-gradient(to right, #c77412 0%, #9b62db 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 1em;
   text-align: center;
   box-shadow: 6px 6px 6px #ededed;
@@ -73,28 +73,32 @@ h1{
 
 .item3{
   background-color: #f9f9f9;
-  font-family: 'Alex Brush', sans-serif;
-  color: #0432df;
+  background: linear-gradient(to right, #5075ea 0%, #83c0fa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   padding: 5px;
   width: 200px;
   height: 250px;
   margin-top: 10px;
-  line-height: 150px;
-  font-weight: bold;
-  font-size: 1em;
+  font-family: 'Dancing Script', cursive;
+  line-height: 30px;
+  font-weight: lighter;
+  font-size: 1.5em;
   text-align: center;
   box-shadow: 6px 6px 6px #ededed;
 }
 
 .item4{
   background-color: #fdfffd;
-  color: #74c058;
+  background: linear-gradient(to right, #62b24e 0%, #bffe7e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   padding: 5px;
   width: 200px;
   height: 250px;
   margin-top: 10px;
-  line-height: 150px;
-  font-weight: bold;
+  font-family: 'Kaushan Script', cursive;
+  line-height: 30px;
   font-size: 1em;
   text-align: center;
   box-shadow: 6px 6px 6px #ededed;
@@ -102,11 +106,13 @@ h1{
 
 aside{
   padding: 0.1rem 0;
+  margin-right: auto;
+  margin-left: auto;
   background-color: #579C87;
   width: 200px;
   border-radius: 10px;
   font-family: 'robotobold', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
   color: #fdcb46;
   text-align: center;
 }
