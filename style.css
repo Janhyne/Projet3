@@ -1,5 +1,3 @@
-
-
 body{
 	margin: 0;
 	padding: 0;
@@ -31,77 +29,68 @@ img{
     margin: 90px 0px;
 }
 
-.item1{
-  background-color: #fcdfdb;
-  text-align:center;
+.menu
+{
   padding: 5px;
   width: 200px;
   height: 250px;
   margin-top: 10px;
-  font-family: 'Zhi Mang Xing', cursive;
-  line-height: 30px; 
-  color: #3c1218;
-  font-size: 1.5em; 
-  text-align: center;
   box-shadow: 6px 6px 6px #ededed;
+  text-align: center;
+  font-size: 1.em; 
 }
 
-.item2{
+.menu p
+{
+  padding-top: 80px;
+  line-height: 30px;
+}
+
+#item1{
+  background-color: #fcdfdb;
+  font-family: 'Zhi Mang Xing', cursive;
+  color: #3c1218;
+}
+
+.fas fa-music{
+  background: linear-gradient(to right, #f15861 0%, #f78f6a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#item2{
   background-color: #fff5fe;
   font-family: 'Gabriela', serif;
-  padding: 5px;
-  width: 200px;
-  height: 250px;
-  margin-top: 10px;
-  line-height: 30px;
   background: linear-gradient(to right, #c77412 0%, #9b62db 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 1em;
-  text-align: center;
-  box-shadow: 6px 6px 6px #ededed;
 }
 
-.item3{
+#item3{
   background-color: #f9f9f9;
   background: linear-gradient(to right, #5075ea 0%, #83c0fa 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding: 5px;
-  width: 200px;
-  height: 250px;
-  margin-top: 10px;
   font-family: 'Dancing Script', cursive;
-  line-height: 30px;
   font-weight: lighter;
-  font-size: 1.5em;
-  text-align: center;
-  box-shadow: 6px 6px 6px #ededed;
 }
 
-.item4{
+#item4{
   background-color: #fdfffd;
   background: linear-gradient(to right, #62b24e 0%, #bffe7e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding: 5px;
-  width: 200px;
-  height: 250px;
-  margin-top: 10px;
   font-family: 'Kaushan Script', cursive;
-  line-height: 30px;
-  font-size: 1em;
-  text-align: center;
-  box-shadow: 6px 6px 6px #ededed;
 }
 
-aside{
+section{
   padding: 0.1rem 0;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 200px;
+  margin-top: 600px;
   background-color: #579C87;
-  width: 200px;
+  width: 250px;
+  height: 40px;
   border-radius: 10px;
   font-family: 'roboto', sans-serif;
   font-size: 1.1em;
