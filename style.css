@@ -1,4 +1,5 @@
-body{
+body, html{
+  height: 100%;
 	margin: 0;
 	padding: 0;
 }
@@ -45,17 +46,18 @@ img{
   line-height: 30px;
 }
 
+.fas{
+  padding-top: 60px;
+  background: linear-gradient(to right, #f15861 0%, #f78f6a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #item1{
   background-color: #fcdfdb;
   font-family: 'Zhi Mang Xing', cursive;
   font-size: 1.2em;
   color: #3c1218;
-}
-
-.fas fa-music{
-  background: linear-gradient(to right, #f15861 0%, #f78f6a 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 #item2{
@@ -130,3 +132,30 @@ p{
   float: right;
 }
 
+<!-- la note enchantée -->
+p{
+  text-align: center;
+}
+
+h1{
+  font-family:'Zhi Mang Xing', cursive;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h2, h3{
+  font-family: 'Dancing Script', sérif;
+  font-size: 0.8em;
+  color: #3c1218;
+}
+
+h3{
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.5em;
+}
