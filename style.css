@@ -133,7 +133,14 @@ p{
 }
 
 <!-- la note enchantée -->
+
 p{
+  text-align: center;
+}
+
+.article{
+  font-family:'Zhi Mang Xing', cursive;
+  font-size: 2em;
   text-align: center;
 }
 
@@ -143,19 +150,42 @@ h1{
   text-align: center;
 }
 
-h2, h3{
-  font-family: 'Dancing Script', sérif;
-  font-size: 0.8em;
-  color: #3c1218;
+h2 {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Dancing Script', sérif;
+    font-size: 1.5em;
+    color: #3c1218;
+}
+h2:before, h2:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 3px;
+    content: '\a0';
+    background-color: #3c1218;
+}
+h2:before {
+    margin-left: -50%;
+    text-align: right;
 }
 
 h3{
+  font-family: 'Dancing Script', sérif;
+  font-size: 0.8em;
+  color: #3c1218;
   text-align: left;
   margin-left: 100px;
   margin-right: 100px;
 }
 
-h2{
+.logo{
+  font-family: 'Dancing Script', sérif;
+  font-size: 0.8em;
+  color: #3c1218;
   text-align: center;
-  font-size: 1.5em;
+  margin-left: 100px;
+  margin-right: 100px;
 }
