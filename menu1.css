@@ -1,7 +1,34 @@
 <!-- la note enchantée -->
+body, html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-p{
-  text-align: center;
+header{
+  padding: 35px 0;
+  margin: 0;
+  background-color: #579C87;
+}
+
+img{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 40px;
+}
+
+.fas{
+  padding-top: 60px;
+  background: linear-gradient(to right, #f15861 0%, #f78f6a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#Menu1{
+  font-family:'Zhi Mang Xing', cursive;
 }
 
 .article{
@@ -13,6 +40,7 @@ p{
 h1{
   font-family:'Zhi Mang Xing', cursive;
   font-size: 2.5em;
+  color: #3c1218;
   text-align: center;
 }
 
@@ -20,7 +48,7 @@ h2{
     position: relative;
     overflow: hidden;
     text-align: center;
-    font-family: 'Roboto', sérif;
+    font-family: 'Dancing Script', sérif;
     font-size: 1.5em;
     color: #3c1218;
 }
@@ -28,7 +56,7 @@ h2:before, h2:after {
     position: absolute;
     top: 51%;
     overflow: hidden;
-    width: 50%;
+    width: 45%;
     height: 3px;
     content: '\a0';
     background-color: #3c1218;
@@ -54,4 +82,16 @@ h3{
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+footer{
+  padding: 0.1rem 0;
+  background-color: #579C87;
+  font-family: 'roboto', sans-serif;
+  font-size: 1em;
+  color: #fdcb46;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
