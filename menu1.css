@@ -7,11 +7,13 @@ html{
 body{
   display: table;
   width: 100%;
+  margin: 0; padding: 0;
 }
 
 header{
   padding: 35px 0;
-  margin: 0;
+  margin: auto;
+  margin-top: -8px;
   background-color: #579C87;
 }
 
@@ -25,7 +27,9 @@ img{
 }
 
 .fas{
-  padding-top: 60px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
   background: linear-gradient(to right, #f15861 0%, #f78f6a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -33,6 +37,7 @@ img{
 
 #Menu1{
   font-family:'Zhi Mang Xing', cursive;
+  margin-top: -20px;
 }
 
 .article{
@@ -42,13 +47,16 @@ img{
 }
 
 h1{
+  margin-top: 0;
   font-family:'Zhi Mang Xing', cursive;
   font-size: 2.5em;
+  font-weight: lighter;
   color: #3c1218;
   text-align: center;
 }
 
 h2{
+    padding: 1em 0;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -57,26 +65,42 @@ h2{
     color: #3c1218;
 }
 h2:before, h2:after {
-    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
     top: 51%;
     overflow: hidden;
-    width: 45%;
+    width: 13em;
     height: 3px;
-    content: '\a0';
+    content: '';
     background-color: #3c1218;
 }
 h2:before {
-    margin-left: -50%;
-    text-align: right;
+    margin-left: -100%;
+    margin-right: 3em;
+  }
+
+h2:after {
+    margin-right:-100%;
+    margin-left: 3em;
 }
 
 h3{
   font-family: 'Dancing Script', sérif;
-  font-size: 0.8em;
+  font-size: 1em;
   color: #3c1218;
   text-align: left;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+h3 span.gauche {
+  float: left;
+  padding-left: 3em;
+}
+
+h3 span.droite {
+  float: right;
+  padding-right: 3em;
 }
 
 .nom{
@@ -84,8 +108,8 @@ h3{
   font-size: 1.5em;
   color: #3c1218;
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 footer{
@@ -95,5 +119,14 @@ footer{
   font-family: 'roboto', sans-serif;
   font-size: 1em;
   color: #fdcb46;
-  
+}
+
+p span.gauche {
+  float: left;
+  padding-left: 3em;
+}
+
+p span.droite {
+  float: right;
+  padding-right: 3em;
 }
