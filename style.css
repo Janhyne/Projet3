@@ -56,8 +56,13 @@ img{
 #item1{
   background-color: #fcdfdb;
   font-family: 'Zhi Mang Xing', cursive;
-  font-size: 0.8em;
+  font-size: 1.5em;
+  font-weight: lighter;
   color: #3c1218;
+}
+
+#item1 p{
+  padding-top: 0;
 }
 
 #item2{
@@ -93,7 +98,15 @@ img{
   width: 350px;
 }
 
-.section, h2{
+.center-div p{
+  padding-top: 10px;
+}
+
+h1{
+  
+}
+
+.section, .center-div{
   margin-top: 250px;
   background-color: #579C87;
   height: 40px;
@@ -118,8 +131,8 @@ footer{
   text-align: center;
 }
 
-p{
-  padding: 0.5rem 0; 
+footer p{
+  padding-bottom: 1rem; 
   margin: 15px;
   text-align: center;
   line-height: 1em;
