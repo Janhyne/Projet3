@@ -34,57 +34,71 @@ img{
   padding-top: 10px;
 }
 
+h1, h2, h3{
+  font-family: 'Gabriela', serif;
+  font-weight: lighter;
+}
+
+h1, h2{
+   text-align: center;
+}
+
 h1{
   background-color: #fff5fe;
-  font-family: 'Gabriela', serif;
   font-size: 2em;
-  background: linear-gradient(to right, #c67412 20%, #9b62db 80%);
+  background: linear-gradient(to right, #c67412 45%, #6e4ccc 55%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
 }
 
 h2{
-  font-family: 'Gabriela', serif;
   font-size: 1.5em;
-  text-align: center;
+  font-stretch: condensed;
 }
 
 h3{
-  font-family: 'Gabriela', serif;
-  font-size: 0.8em;
+  font-size: 1em;
   text-align: left;
-
 }
+
+#div{
+ 
+}
+
 table
 {
-margin: auto;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 50em;
 }
 
-.entrees, .plats{
+.entrees, .plats, .desserts{
   font-family: 'Gabriela', serif;
   font-size: 0.8em;
   text-align: left;
   margin-left: 100px;
   margin-right: 100px;
-  line-height: 160%;
+  line-height: 60%;
 }
+
 .entrees{
   color: #c67412;
-  
 }
 
 .plats{
   color: #a56799;
 }
 
+.desserts{
+  color: #6e4ccc;
+}
+
 td
 {
 text-align :left;
-}
-
-h1, h2, h3{
-  font-weight: lighter;
 }
 
 .section, .center-div{
