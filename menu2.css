@@ -38,7 +38,7 @@ h1{
   background-color: #fff5fe;
   font-family: 'Gabriela', serif;
   font-size: 2em;
-  background: linear-gradient(to right, #c77412 20%, #9b62db 80%);
+  background: linear-gradient(to right, #c67412 20%, #9b62db 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -46,19 +46,41 @@ h1{
 
 h2{
   font-family: 'Gabriela', serif;
-  font-size: 1em;
-  color: #c77412;
+  font-size: 1.5em;
   text-align: center;
 }
 
 h3{
   font-family: 'Gabriela', serif;
   font-size: 0.8em;
-  color: #c77412;
+  text-align: left;
+
+}
+table
+{
+margin: auto;
+}
+
+.entrees, .plats{
+  font-family: 'Gabriela', serif;
+  font-size: 0.8em;
   text-align: left;
   margin-left: 100px;
   margin-right: 100px;
-  line-height: 60%;
+  line-height: 160%;
+}
+.entrees{
+  color: #c67412;
+  
+}
+
+.plats{
+  color: #a56799;
+}
+
+td
+{
+text-align :left;
 }
 
 h1, h2, h3{
