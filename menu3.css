@@ -1,4 +1,4 @@
-<!-- le chic à la française -->
+<!-- le délice des papilles -->
 html{
   height: 100%;
   margin: 0; padding: 0;
@@ -25,6 +25,7 @@ img{
   width: 150px;
   height: 40px;
 }
+
 .center-div{
   margin: 0 auto;
   width: 350px;
@@ -34,8 +35,13 @@ img{
   padding-top: 10px;
 }
 
-h1, h2, h3{
-  font-family: 'Gabriela', serif;
+caption {
+    padding: 10px;
+    caption-side: top;
+}
+
+h2, h3{
+  font-family: 'Kaushan Script', cursive;
   font-weight: lighter;
 }
 
@@ -44,17 +50,39 @@ h1, h2{
 }
 
 h1{
-  background-color: #fff5fe;
   font-size: 2em;
-  background: linear-gradient(to right, #c67412 45%, #6e4ccc 55%);
+  background: linear-gradient(to right, #5075ea 0%, #83c0fa 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Dancing Script', cursive;
+  font-weight: lighter;
   text-align: center;
 }
 
 h2{
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-stretch: condensed;
+}
+
+h2:before, h2:after {
+    display: inline-block;
+    vertical-align: middle;
+    top: 51%;
+    overflow: hidden;
+    width: 16em;
+    height: 3px;
+    content: " ";
+    background-color: #5075ea;
+}
+
+h2:before {
+    margin-left: -100%;
+    margin-right: 3em;
+  }
+
+h2:after {
+    margin-right:-100%;
+    margin-left: 3em;
 }
 
 h3{
@@ -64,7 +92,7 @@ h3{
 
 table
 {
-  margin-top: 20px;
+  margin-top: -10px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -72,25 +100,14 @@ table
 }
 
 .entrees, .plats, .desserts{
-  font-family: 'Gabriela', serif;
+  font-family: 'Kaushan', serif;
   font-size: 0.8em;
   text-align: left;
   margin-left: 100px;
   margin-right: 100px;
   line-height: 60%;
   padding: 5px;
-}
-
-.entrees{
-  color: #c67412;
-}
-
-.plats{
-  color: #a56799;
-}
-
-.desserts{
-  color: #6e4ccc;
+  color: black;
 }
 
 td
