@@ -1,0 +1,128 @@
+<!-- la palette du goût -->
+html{
+  height: 100%;
+  margin: 0; padding: 0;
+}
+
+body{
+  display: table;
+  width: 100%;
+  margin: 0; padding: 0;
+}
+
+header{
+  padding: 35px 0;
+  margin: auto;
+  margin-top: -8px;
+  background-color: #579C87;
+}
+
+img{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 40px;
+}
+.center-div{
+  margin: 0 auto;
+  width: 350px;
+}
+
+.center-div p{
+  padding-top: 10px;
+}
+
+h1, h2, h3{
+  font-family: 'Caveat', serif;
+  font-weight: lighter;
+}
+
+h1, h2{
+   text-align: center;
+}
+
+h1{
+  background-color: #fff5fe;
+  font-size: 2em;
+  background: linear-gradient(to right, #62b24e 0%, #bffe7e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Kaushan Script', cursive;
+}
+
+h2{
+  font-size: 1.5em;
+  font-stretch: condensed;
+}
+
+h3{
+  font-size: 1.2em;
+  text-align: left;
+}
+
+table
+{
+  margin-top: -20px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 60em;
+}
+
+.entrees, .plats, .desserts{
+  font-family: 'Caveat', cursive;
+  font-size: 0.8em;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 60%;
+  padding: 5px;
+  color: black;
+}
+
+td
+{
+text-align :left;
+}
+
+.section, .center-div{
+  margin-top: 250px;
+  background-color: #579C87;
+  height: 40px;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  font-weight: lighter;
+  color: #fdcb46;
+  text-align: center;
+  vertical-align: middle;
+}
+
+footer{
+  padding: 0.1rem 0;
+  background-color: #579C87;
+  font-family: 'roboto', sans-serif;
+  font-size: 1em;
+  color: #fdcb46;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer p{
+  padding-bottom: 1rem; 
+  margin: 15px;
+  text-align: center;
+  line-height: 1em;
+}
+
+.gauche{
+  float: left;
+}
+
+.droite{
+  float: right;
+}
