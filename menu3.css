@@ -51,7 +51,7 @@ h1, h2{
 
 h1{
   font-size: 2em;
-  background: linear-gradient(to right, #5075ea 0%, #83c0fa 100%);
+  background: linear-gradient(to right, #0228dd 40%, #229df9 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Dancing Script', cursive;
