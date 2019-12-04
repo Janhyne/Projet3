@@ -17,7 +17,7 @@ header{
   background-color: #579C87;
 }
 
-img{
+img.logo{
   position: absolute;
   top: 5%;
   left: 50%;
@@ -58,8 +58,14 @@ h2{
 }
 
 h3{
+  line-height: 15px;
   font-size: 1em;
   text-align: left;
+}
+
+h4{
+  font-size: 1em;
+  text-align: right;
 }
 
 table
