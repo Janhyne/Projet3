@@ -43,6 +43,10 @@ h1, h2{
    text-align: center;
 }
 
+h3, h4{
+  line-height: 1%;
+}
+
 h1{
   background-color: #fff5fe;
   font-size: 2em;
@@ -55,11 +59,17 @@ h1{
 h2{
   font-size: 1.5em;
   font-stretch: condensed;
+  margin-top: -2px;
 }
 
 h3{
   font-size: 1.2em;
   text-align: left;
+}
+
+h4{
+  font-size: 1.2em;
+  text-align: right;
 }
 
 table

@@ -28,7 +28,7 @@ img{
 .fas{
   display: block;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 5px;
   background: linear-gradient(to right, #f15861 0%, #f78f6a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -48,44 +48,26 @@ img{
 h1{
   margin-top: 0;
   font-family:'Caveat', cursive;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: lighter;
   color: #3c1218;
   text-align: center;
 }
 
 h2{
-    padding: 1em 0;
+    padding-top: 1em;
     position: relative;
     overflow: hidden;
     text-align: center;
     font-family: 'Dancing Script', sérif;
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #3c1218;
-}
-h2:before, h2:after {
-    display: inline-block;
-    vertical-align: middle;
-    top: 51%;
-    overflow: hidden;
-    width: 13em;
-    height: 3px;
-    content: " ";
-    background-color: #3c1218;
-}
-h2:before {
-    margin-left: -100%;
-    margin-right: 3em;
-  }
-
-h2:after {
-    margin-right:-100%;
-    margin-left: 3em;
 }
 
 h3{
   font-family: 'Dancing Script', sérif;
-  font-size: 1em;
+  font-size: 0.8em;
+  line-height: 25%;
   color: #3c1218;
   text-align: left;
   margin-left: 100px;
@@ -117,8 +99,8 @@ footer{
   font-family: 'roboto', sans-serif;
   font-size: 1em;
   color: #fdcb46;
-  display: table-row;
-  bottom: 0px;
+  position: absolute;
+  bottom: 0;
   width: 100%;
   text-align: center;
 }
