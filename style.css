@@ -99,11 +99,7 @@ img{
 }
 
 .center-div p{
-  padding-top: 10px;
-}
-
-h1{
-  
+  padding-top: 10px; 
 }
 
 .section, .center-div{
@@ -145,4 +141,27 @@ footer p{
 .droite{
   float: right;
 }
+
+/*responsive pour les blocs */
+
+@media all and (max-width: 480px){
+    
+    /* version pour smartphone */
+    /* passer body (et tous les éléments de largeur fixe) en largeur automatique */
+}
+
+    .flex-container{
+        flex-direction: column;
+    }
+
+    /* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
+
+    @media (min-width: 480px) and (max-width: 780px){
+      /*version pour smartphone ft paysage, tablette ft portrait*/
+    }
+
+    @media (min-width: 781px) and (max-width: 979px){
+      /*version pour tablette ft paysage, ordis petits écrans*/
+    }
+
 
