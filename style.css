@@ -30,8 +30,7 @@ img{
     margin: 90px 0px;
 }
 
-.menu
-{
+.menu{
   padding: 5px;
   width: 200px;
   height: 250px;
@@ -40,8 +39,7 @@ img{
   text-align: center; 
 }
 
-.menu p
-{
+.menu p{
   padding-top: 80px;
   line-height: 30px;
 }
