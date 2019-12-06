@@ -1,5 +1,5 @@
 <!-- la note enchantée -->
-html, body{
+html{
   height: 100%;
   margin: 0; padding: 0;
 }
@@ -7,6 +7,7 @@ html, body{
 body{
   display: table;
   width: 100%;
+  margin: 0; padding: 0;
 }
 
 header{
@@ -25,6 +26,15 @@ img{
   height: 40px;
 }
 
+.center-div{
+  margin: 0 auto;
+  width: 250px;
+}
+
+.center-div p{
+  padding-top: 10px;
+}
+
 .fas{
   display: block;
   margin: 0 auto;
@@ -32,11 +42,6 @@ img{
   background: linear-gradient(to right, #f15861 0%, #f78f6a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-#Menu1{
-  font-family:'Zhi Mang Xing', cursive;
-  margin-top: -20px;
 }
 
 .article{
@@ -54,36 +59,48 @@ h1{
   text-align: center;
 }
 
+h2, h3, h4{
+  font-family: 'Dancing Script', sérif;
+}
+
 h2{
-    padding-top: 1em;
-    position: relative;
-    overflow: hidden;
+    padding-top: -1em;
     text-align: center;
-    font-family: 'Dancing Script', sérif;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: #3c1218;
 }
 
 h3{
-  font-family: 'Dancing Script', sérif;
-  font-size: 0.8em;
-  line-height: 25%;
+  font-size: 1em;
   color: #3c1218;
+  text-align: left;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+h4{
+  font-size: 1em;
+  text-align: right;
+}
+
+table{
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 70em;
+  line-height: 1%;
+}
+
+.entrees, .plats, .desserts{
+  font-family: 'Dancing Script', serif;
+  font-size: 0.8em;
   text-align: left;
   margin-left: 100px;
   margin-right: 100px;
+  line-height: 60%;
+  padding: 5px;
 }
-
-h3 span.gauche{
-  float: left;
-  padding-left: 3em;
-}
-
-h3 span.droite{
-  float: right;
-  padding-right: 3em;
-}
-
 .nom{
   font-family:'Caveat', cursive;
   font-size: 1.3em;
