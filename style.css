@@ -101,7 +101,7 @@ img{
 }
 
 .section, .center-div{
-  margin-top: 250px;
+  margin-top: 240px;
   background-color: #579C87;
   height: 40px;
   border-radius: 10px;
@@ -114,20 +114,20 @@ img{
 }
 
 footer{
-	padding: 0.1rem 0;
+	padding: 10px;
 	background-color: #579C87;
 	font-family: 'roboto', sans-serif;
 	font-size: 1em;
   color: #fdcb46;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 98.5%;
   text-align: center;
 }
 
 footer p{
   padding-bottom: 1rem; 
-  margin: 15px;
+  margin: 25px;
   text-align: center;
   line-height: 1em;
 }
@@ -149,6 +149,7 @@ footer a{
   color: #3c1218;
   text-decoration: none;
 }
+
 #item2 a{
   color: none;
   text-decoration: none;
