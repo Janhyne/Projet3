@@ -140,6 +140,20 @@ footer p{
   float: right;
 }
 
+/*au clic*/
+footer a{
+  color: #fdcb46; 
+}
+
+#item1 a{
+  color: #3c1218;
+  text-decoration: none;
+}
+#item2 a{
+  color: none;
+  text-decoration: none;
+}
+
 /*responsive pour les blocs */
 
 @media all and (max-width: 480px){
