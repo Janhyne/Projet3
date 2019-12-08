@@ -30,6 +30,10 @@ img{
     margin: 90px 0px;
 }
 
+.span{
+  display:inline-table;
+}
+
 .menu{
   padding: 5px;
   width: 200px;
@@ -151,7 +155,6 @@ footer a{
 }
 
 #item2 a{
-  color: none;
   text-decoration: none;
 }
 

@@ -96,15 +96,6 @@ table{
   margin-top: -10px;
 }
 
-.nom{
-  font-family:'Caveat', cursive;
-  font-size: 1.3em;
-  color: #3c1218;
-  text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 footer{
   padding: 0.1rem 0;
   background-color: #579C87;
