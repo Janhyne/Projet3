@@ -59,6 +59,7 @@ h2{
   font-stretch: condensed;
 }
 
+/*traits*/
 #trait
 { 
   display: inline-block; 
@@ -70,17 +71,19 @@ hr{
   background-color: #0228dd;
   padding: 1px;
 }
-
-h3, h4{
- font-size: 1em;
-}
+/*fin traits*/
 
 h3{
-  text-align: left;
+ font-size: 1em;
+ text-align: left;
 }
 
 h4{
   text-align: right;
+}
+
+h5{
+  color: #fdcb46;
 }
 
 table
@@ -122,28 +125,70 @@ text-align :left;
 }
 
 footer{
-  padding: 0.1rem 0;
+  padding: 2px;
   background-color: #579C87;
   font-family: 'roboto', sans-serif;
   font-size: 1em;
   color: #fdcb46;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 99%;
   text-align: center;
 }
 
 footer p{
   padding-bottom: 1rem; 
-  margin: 15px;
+  margin: 25px;
   text-align: center;
   line-height: 1em;
 }
 
-.gauche{
+#gauche{
   float: left;
 }
 
-.droite{
+#droite{
   float: right;
 }
+
+/*animation wiggle*/
+h5 {
+  font-size: 0.8em;
+  color: #fdcb46;
+}
+
+h5:hover{
+  -webkit-animation-name: wiggle;
+  -ms-animation-name: wiggle;
+  -ms-animation-duration: 1000ms;
+  -webkit-animation-duration: 1000ms;
+  -webkit-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes wiggle {
+  0% {-webkit-transform: rotate(3deg);}
+  25% {-webkit-transform: rotate(-3deg);}
+  50% {-webkit-transform: rotate(3deg);}
+  75% {-webkit-transform: rotate(-3deg);}
+  100% {-webkit-transform: rotate(0deg);}
+}
+
+@-ms-keyframes wiggle {
+  0% {-ms-transform: rotate(3deg);}
+  25% {-ms-transform: rotate(-3deg);}
+  50% {-ms-transform: rotate(3deg);}
+  75% {-ms-transform: rotate(-3deg);}
+  100% {-ms-transform: rotate(0deg);}
+}
+
+@keyframes wiggle {
+  0% {transform: rotate(3deg);}
+  25% {transform: rotate(-3deg);}
+  50% {transform: rotate(3deg);}
+  75% {transform: rotate(-3deg);}
+  100% {transform: rotate(0deg);}
+}
+/*fin animation wiggle*/
