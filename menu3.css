@@ -61,10 +61,15 @@ h2{
 
 #trait
 { 
-  display: inline-block;
-  border-bottom: 2px solid #0228dd; 
+  display: inline-block; 
   width : 33%; 
-} 
+}
+
+hr{
+  border-bottom: 2px;
+  background-color: #0228dd;
+  padding: 1px;
+}
 
 h3, h4{
  font-size: 1em;
@@ -80,7 +85,7 @@ h4{
 
 table
 {
-  margin-top: -10px;
+  margin-top: -20px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
