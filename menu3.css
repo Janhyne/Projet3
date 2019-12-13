@@ -59,6 +59,19 @@ h2{
   font-stretch: condensed;
 }
 
+h3{
+ font-size: 1em;
+ text-align: left;
+}
+
+h4{
+  text-align: right;
+}
+
+h5{
+  color: #fdcb46;
+}
+
 /*traits*/
 #trait
 { 
@@ -72,19 +85,6 @@ hr{
   padding: 1px;
 }
 /*fin traits*/
-
-h3{
- font-size: 1em;
- text-align: left;
-}
-
-h4{
-  text-align: right;
-}
-
-h5{
-  color: #fdcb46;
-}
 
 table
 {
@@ -101,8 +101,8 @@ table
   text-align: left;
   margin-left: 100px;
   margin-right: 100px;
-  line-height: 60%;
-  padding: 5px;
+  line-height: 20%;
+  padding: 7px;
   color: black;
 }
 
