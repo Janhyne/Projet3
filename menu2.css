@@ -55,6 +55,7 @@ h1{
 h2{
   font-size: 1.3em;
   font-stretch: condensed;
+  padding-top: -5px;
 }
 
 h3{
@@ -68,9 +69,24 @@ h4{
   text-align: right;
 }
 
+/*traits*/
+#trait
+{ 
+  display: inline-block; 
+  width : 33%; 
+}
+
+hr{
+  border-bottom: 2px solid;
+  border-radius: 5px;
+  background-image: linear-gradient(#dd4b39, #d14836);
+  padding: 1px;
+}
+/*fin traits*/
+
 table
 {
-  margin-top: 20px;
+  margin-top: 1px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -83,7 +99,7 @@ table
   text-align: left;
   margin-left: 100px;
   margin-right: 100px;
-  line-height: 10%;
+  line-height: 1%;
   padding: 5px;
 }
 
@@ -118,28 +134,70 @@ text-align :left;
 }
 
 footer{
-  padding: 0.1rem 0;
+  padding: 2px;
   background-color: #579C87;
   font-family: 'roboto', sans-serif;
   font-size: 1em;
   color: #fdcb46;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 99%;
   text-align: center;
 }
 
 footer p{
   padding-bottom: 1rem; 
-  margin: 15px;
+  margin: 25px;
   text-align: center;
   line-height: 1em;
 }
 
-.gauche{
+#gauche{
   float: left;
 }
 
-.droite{
+#droite{
   float: right;
 }
+
+/*animation wiggle*/
+h5 {
+  font-size: 0.8em;
+  color: #fdcb46;
+}
+
+h5:hover{
+  -webkit-animation-name: wiggle;
+  -ms-animation-name: wiggle;
+  -ms-animation-duration: 1000ms;
+  -webkit-animation-duration: 1000ms;
+  -webkit-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes wiggle {
+  0% {-webkit-transform: rotate(3deg);}
+  25% {-webkit-transform: rotate(-3deg);}
+  50% {-webkit-transform: rotate(3deg);}
+  75% {-webkit-transform: rotate(-3deg);}
+  100% {-webkit-transform: rotate(0deg);}
+}
+
+@-ms-keyframes wiggle {
+  0% {-ms-transform: rotate(3deg);}
+  25% {-ms-transform: rotate(-3deg);}
+  50% {-ms-transform: rotate(3deg);}
+  75% {-ms-transform: rotate(-3deg);}
+  100% {-ms-transform: rotate(0deg);}
+}
+
+@keyframes wiggle {
+  0% {transform: rotate(3deg);}
+  25% {transform: rotate(-3deg);}
+  50% {transform: rotate(3deg);}
+  75% {transform: rotate(-3deg);}
+  100% {transform: rotate(0deg);}
+}
+/*fin animation wiggle*/
