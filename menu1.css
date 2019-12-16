@@ -102,21 +102,23 @@ table{
 /*animation texte*/
 a {
   position: relative;
-    color: inherit;
-    text-decoration: none;
-    background: linear-gradient(to top, #579c87 0%, #579c87 10%,transparent 10.01%) no-repeat left bottom / 0 100;
-    background-size: 0% 100%;
-    transition: background-size .3s;
+  color: inherit;
+  text-decoration: none;
+  background: linear-gradient(to top, #579c87 0%, #579c87 10%,transparent 10.01%) no-repeat left bottom / 0 100;
+  background-size: 0% 100%;
+  transition: background-size .3s;
 }
 
 a:hover{
+  text-decoration: underline;
+  color: #579c87;
   background-size: 100% 100%;
   animation: underline 1s both;
 }
 
-.content a{
+#content a{
   background-size: 100% 100%;
-  color: #000;
+  color: #579c87;
 }
 
 @keyframes underline{
@@ -126,13 +128,13 @@ a:hover{
   }
 
   50%{
-  background-size: 0 100%;
-  background-position: bottom right;
+    background-size: 0 100%;
+    background-position: bottom right;
   }
 
   100%{
-  background-size: 100% 100%;
-  background-position: bottom left;
+    background-size: 100% 100%;
+    background-position: bottom left;
   }
 }
 
