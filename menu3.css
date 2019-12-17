@@ -152,12 +152,12 @@ footer p{
 }
 
 /*animation wiggle*/
-h6 {
+h5{
   font-size: 0.8em;
   color: #fdcb46;
 }
 
-h6:hover{
+h5:hover{
   -webkit-animation-name: wiggle;
   -ms-animation-name: wiggle;
   -ms-animation-duration: 1000ms;

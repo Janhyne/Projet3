@@ -45,7 +45,6 @@ img{
 
 .menu p{
   padding-top: 80px;
-  line-height: 30px;
 }
 
 .fas{
@@ -208,7 +207,7 @@ h3:hover{
     /* passer body (et tous les éléments de largeur fixe) en largeur automatique */
 }
 
-    .flex-container{
+    #flex-container{
         flex-direction: column;
     }
 
