@@ -35,7 +35,7 @@ h1{
 }
 
 h2{
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-stretch: condensed;
 }
 
@@ -51,7 +51,6 @@ h4{
 
 h5{
   font-size: 1em;
-  text-align: center;
 }
 
 h2, h3, h4, h5{
@@ -69,6 +68,9 @@ h1, h2, h3, h4, h5{
 
 p{
   color: #fdcb46;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
 }
 
 .fas{
@@ -92,15 +94,20 @@ hr{
 /*fin traits*/
 
 table{
-  margin-top: -30px;
+  margin-top: -20px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  width: 60em;
+  width: 50em;
+
+}
+td{
+  line-height: 2px;
 }
 
+
 /*animation texte*/
-/*a {
+a {
   position: relative;
   color: inherit;
   text-decoration: none;
@@ -139,6 +146,7 @@ a:hover{
 }
 */
 
+/*
 a{
   position: relative;
 }
@@ -159,6 +167,7 @@ a::after{
 }
 a:hover::after{
   transform: scaleX(1);
+  */
 }
 
 .entrees, .plats, .desserts{
@@ -192,6 +201,7 @@ footer p{
   padding-bottom: 1rem; 
   text-align: center;
   line-height: 1em;
+  margin: 10px;
 }
 
 #gauche{

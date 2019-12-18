@@ -25,14 +25,6 @@ img{
   width: 150px;
   height: 40px;
 }
-.center-div{
-  margin: 0 auto;
-  width: 350px;
-}
-
-.center-div p{
-  padding-top: 10px;
-}
 
 h1, h2, h3{
   font-family: 'Gabriela', serif;
@@ -118,19 +110,6 @@ table
 td
 {
 text-align :left;
-}
-
-.section, .center-div{
-  margin-top: 250px;
-  background-color: #579C87;
-  height: 40px;
-  border-radius: 10px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.1em;
-  font-weight: lighter;
-  color: #fdcb46;
-  text-align: center;
-  vertical-align: middle;
 }
 
 footer{
