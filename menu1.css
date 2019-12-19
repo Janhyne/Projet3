@@ -58,7 +58,7 @@ h2, h3, h4, h5{
   font-weight: lighter;
 }
 
-h1, h2{
+h1, h2, h5{
    text-align: center;
 }
 
@@ -81,11 +81,6 @@ p{
 }
 
 /*traits*/
-.trait{ 
-  display: inline-block; 
-  width : 33%; 
-}
-
 hr{
   border-bottom: 2px;
   background-color: #3c1218;
@@ -98,19 +93,20 @@ table{
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  width: 50em;
-
+  width: 60%;
 }
+
 td{
-  line-height: 2px;
+  width: 150%;
+  height: 30px;
+  line-height: auto;
 }
 
 .titre
 {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  color: 3c1218;
+  width: 105%;
 }
 
 .titre .hr
@@ -217,6 +213,10 @@ a:hover::after{
 
 td{
 text-align :left;
+}
+
+h5{
+  padding: 3px;
 }
 
 footer{
