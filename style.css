@@ -103,11 +103,11 @@ img{
 }
 
 .center-div p{
-  padding-top: 10px; 
+  padding-top: 8px;
 }
 
 .section, .center-div{
-  margin-top: 120px;
+  margin-top: 125px;
   background-color: #579C87;
   height: 40px;
   border-radius: 10px;
@@ -119,11 +119,38 @@ img{
   vertical-align: middle;
 }
 
+/*animation points de suspension*/
+.loading{
+  font-size: 20px;
+}
+
+.loading:after{
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4,end) 900ms infinite;      
+  animation: ellipsis steps(4,end) 900ms infinite;
+  content: "\2026"; /* ascii code for the ellipsis character */
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 1.25em;    
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 1.25em;    
+  }/*animation points de suspension*/
+
+}
 footer{
-	padding: 3px;
+	padding: 4px;
 	background-color: #579C87;
 	font-family: 'roboto', sans-serif;
-	font-size: 0.8em;
+	font-size: 1em;
   color: #fdcb46;
   position: absolute;
   bottom: 0;
@@ -171,8 +198,7 @@ footer a{
 
 .menu:hover {
   opacity: .5;
-}
-/* fin animation opacity*/
+}/* fin animation opacity*/
 
 /*animation wiggle*/
 h3 {
@@ -212,8 +238,7 @@ h3:hover{
   50% {transform: rotate(3deg);}
   75% {transform: rotate(-3deg);}
   100% {transform: rotate(0deg);}
-}
-/*fin animation wiggle*/
+}/*fin animation wiggle*/
 
 /*responsive pour les blocs */
 @media all and (max-width: 480px){
