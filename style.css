@@ -102,7 +102,7 @@ img{
   width: 350px;
 }
 
-.center-div p{
+.center-div{
   padding-top: 8px;
 }
 
@@ -242,14 +242,27 @@ h3:hover{
 
 /*responsive pour les blocs */
 @media all and (max-width: 480px){
+
+#flex-container{
+   flex-direction: column;
+}
+
+table, tbody{
+  display: block;
+}
+
+tr{
+  display: table;
+}
+
+td{
+  display: table-row;
+}
+
     
     /* version pour smartphone */
     /* passer body (et tous les éléments de largeur fixe) en largeur automatique */
 }
-
-    #flex-container{
-        flex-direction: column;
-    }
 
     /* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
 
