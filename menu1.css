@@ -31,20 +31,21 @@ img{
 -ms-flex-pack : distribute;
   margin-left: auto;
   margin-right: auto;
-  height:20%;
+  height:15%;
 }
 
-.item1{
+.item1{ <!-- menu détaillé -->
   -ms-flex : 0 1 auto;
   flex : 0 1 auto;
   width : 80%;
+  height: 5%;
  }
 
-.item2{
+.item2{ <!-- prix -->
   -ms-flex : 0 1 auto;
   flex : 0 1 auto;
   width : 20%;
- 
+ height: 5%;
 }
 
 h1{
@@ -58,6 +59,7 @@ h2{
   font-size: 1.5em;
   font-stretch: condensed;
   margin: 5px;
+  padding : 3px;
 }
 
 h3{
@@ -118,11 +120,11 @@ p{
   height: 11px;
 }
 
-section{
+/*section{
   text-align: justify;
-}
+}*/
 
-.content a {
+.content a { <!-- titre souligné -->
   text-decoration: none;
   position: relative;
 }
@@ -158,6 +160,7 @@ footer p{
   padding-bottom: 1rem; 
   text-align: center;
   margin: 6px;
+  padding: 3px;
 }
 
 #gauche{
