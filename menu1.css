@@ -32,16 +32,17 @@ img{
   margin-left: auto;
   margin-right: auto;
   height:15%;
+  padding: auto;
 }
 
-.item1{ <!-- menu détaillé -->
+.item1{ /*menu détaillé*/
   -ms-flex : 0 1 auto;
   flex : 0 1 auto;
   width : 80%;
   height: 5%;
  }
 
-.item2{ <!-- prix -->
+.item2{ /*prix*/
   -ms-flex : 0 1 auto;
   flex : 0 1 auto;
   width : 20%;
@@ -107,24 +108,28 @@ p{
 }
 
 .trait{
-  float: left; 
-  margin: 5px;
+  position: relative;
+  float: left;
+  margin-left: -250px;
   width: 228px;
   height: 11px;
+  vertical-align: middle;
 }
 
 .trait2{
-  float: right; 
-  margin: 5px;
+  position: relative;
+  float: right;
+  margin-right: -250px;
   width: 228px;
   height: 11px;
+  vertical-align: middle;
 }
 
 /*section{
   text-align: justify;
 }*/
 
-.content a { <!-- titre souligné -->
+.content a { /*titre souligné*/
   text-decoration: none;
   position: relative;
 }
