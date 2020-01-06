@@ -21,20 +21,18 @@ img{
 
 .container{
   display: flex;
-  min-width: 20%;
-  text-align:center;
-  justify-content: center;
-  align-items: center;
   flex-direction : column;
-  margin: auto;
-  padding: 0;
+  justify-content: center;
 }
 
 .ligne{
   display: flex;
   flex-direction: row;
-  justify-content: left;
-  align-items: center;
+  width: 60%;
+  justify-content: center;
+  align-items : center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h1{
@@ -45,10 +43,27 @@ h1{
 }
 
 h2{
-  font-size: 1.5em;
-  font-stretch: condensed;
-  margin: 5px;
-  padding : 3px;
+  margin-top: 5px;
+  font-size: 1.5em; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.trait{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 11px;
+}
+
+.trait2{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 11px;
 }
 
 h3{
@@ -94,28 +109,6 @@ p{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-.trait{
-  position: relative;
-  float: left;
-  margin-left: -250px;
-  width: 228px;
-  height: 11px;
-  vertical-align: middle;
-}
-
-.trait2{
-  position: relative;
-  float: right;
-  margin-right: -250px;
-  width: 228px;
-  height: 11px;
-  vertical-align: middle;
-}
-
-/*section{
-  text-align: justify;
-}*/
 
 .content a { /*titre souligné*/
   text-decoration: none;
