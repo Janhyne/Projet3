@@ -1,29 +1,40 @@
-<!-- le chic à la française -->
-html{
+/* le chic à la française */
+body, html{
   height: 100%;
-  margin: 0; padding: 0;
-}
-
-body{
-  display: table;
-  width: 100%;
-  margin: 0; padding: 0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 header{
   padding: 35px 0;
-  margin: auto;
-  margin-top: -8px;
+  margin: 0;
   background-color: #579C87;
 }
 
-img{
+.logo{
   position: absolute;
   top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 150px;
   height: 40px;
+}
+
+.container{
+  display: flex;
+  flex-direction : column;
+  justify-content: center;
+}
+
+.ligne{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items : center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5px;
 }
 
 h1, h2, h3{
@@ -41,53 +52,52 @@ h1{
   background: linear-gradient(to right, #c67412 45%, #6e4ccc 55%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-align: center;
 }
 
 h2{
-  font-size: 1.3em;
+  font-size: 1.1em;
+  color: #c67412;
   font-stretch: condensed;
-  padding-top: -5px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 110%;
 }
 
 h3{
   line-height: 1px;
-  font-size: 1em;
+  font-size: 0.9em;
   text-align: left;
   margin: 10px;
+  width: 60%;
+}
+
+.trait{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 11px;
+}
+
+.trait2{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 11px;
+}
+
+.sansprix h3{
+  width: 80% !important;
 }
 
 h4{
-  font-size: 1em;
+  font-size: 0.9em;
   text-align: right;
+  margin: 2px;
+  width: 20%;
 }
-
-/*traits*/
-hr{
-  border-bottom: 2px solid;
-  border-radius: 5px;
-  background-image: linear-gradient(#dd4b39, #d14836);
-  padding: 1px;
-  margin: 8px auto;
-}
-/*fin traits*/
-
-table
-{
-  margin-top: -10px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  width: 60em;
-}
-
-td
-{
-  width: 150%;
-  height: 30px;
- text-align :left;
-}
-
 
 .entrees, .plats, .desserts{
   font-family: 'Gabriela', serif;
@@ -111,29 +121,15 @@ td
   color: #6e4ccc;
 }
 
-.titre
+.content
 {
-  display: flex;
-  flex-direction: row;
-  width: 105%;
+  width: 200px;
 }
 
-.titre .hr
-{
-  width: 30%;
-}
-
-.titre .content
-{
-  width: 40%;
-}
-
-.content a {
-  background: linear-gradient(to right, #c67412 45%, #6e4ccc 65%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.content a { /*titre souligné*/
   text-decoration: none;
   position: relative;
+  cursor: default;
 }
 
 .content a:after {
@@ -143,7 +139,7 @@ td
   bottom: 0;
   left: 0;
   width: 0%;
-  background: #a56799;
+  background: #579c87;
   transition: 0.2s;
 }
 
@@ -153,21 +149,21 @@ td
 
 footer{
   padding: 3px;
+  margin: auto;
   background-color: #579C87;
   font-family: 'roboto', sans-serif;
   font-size: 1em;
   color: #fdcb46;
   position: absolute;
   bottom: 0;
-  width: 99%;
-  text-align: center;
+  width: 100%;
 }
 
 footer p{
   padding-bottom: 1rem; 
-  margin: 25px;
   text-align: center;
-  line-height: 1em;
+  margin: 6px;
+  padding: 3px;
 }
 
 #gauche{
@@ -179,12 +175,12 @@ footer p{
 }
 
 /*animation wiggle*/
-h5 {
+p {
   font-size: 0.8em;
   color: #fdcb46;
 }
 
-h5:hover{
+p:hover{
   -webkit-animation-name: wiggle;
   -ms-animation-name: wiggle;
   -ms-animation-duration: 1000ms;

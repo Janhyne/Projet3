@@ -1,23 +1,18 @@
-<!-- le délice des papilles -->
-html{
+/* le délice des papilles */
+body, html{
   height: 100%;
-  margin: 0; padding: 0;
-}
-
-body{
-  display: table;
-  width: 100%;
-  margin: 0; padding: 0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 header{
   padding: 35px 0;
-  margin: auto;
-  margin-top: -8px;
+  margin: 0;
   background-color: #579C87;
 }
 
-img{
+.logo{
   position: absolute;
   top: 5%;
   left: 50%;
@@ -26,9 +21,19 @@ img{
   height: 40px;
 }
 
-h2, h3{
-  font-family: 'Kaushan Script', cursive;
-  font-weight: lighter;
+.container{
+  display: flex;
+  flex-direction : column;
+  justify-content: center;
+}
+
+.ligne{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items : center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h1, h2{
@@ -42,96 +47,109 @@ h1{
   -webkit-text-fill-color: transparent;
   font-family: 'Dancing Script', cursive;
   font-weight: lighter;
-  text-align: center;
 }
 
 h2{
   font-size: 1.3em;
   font-stretch: condensed;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.trait{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 11px;
+}
+
+.trait2{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 11px;
+}
+
+h2, h3, h4{
+ color: #000000;
+ font-family: 'Dancing Script', cursive;
+ font-weight: lighter;
 }
 
 h3{
- font-size: 1em;
+ font-size: 1.3em;
  text-align: left;
+ margin: 2px;
+ width: 60%;
 }
 
 h4{
+  font-size: 1em;
   text-align: right;
+  margin: 2px;
+  width: 20%;
 }
 
 h5{
   color: #fdcb46;
+  margin: 10px;
 }
 
-/*traits*/
-#trait
-{ 
-  display: inline-block; 
-  width : 33%; 
-}
-
-hr{
-  border-bottom: 2px;
-  background-color: #0228dd;
-  padding: 1px;
-}
-/*fin traits*/
-
-table
-{
-  margin-top: -20px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  width: 60em;
-}
-
-.entrees, .plats, .desserts{
-  font-family: 'Kaushan', serif;
-  font-size: 0.8em;
-  text-align: left;
-  margin-left: 100px;
-  margin-right: 100px;
-  line-height: 20%;
-  padding: 7px;
-  color: black;
-}
-
-td
-{
-text-align :left;
-}
-
-.section, .center-div{
-  margin-top: 250px;
-  background-color: #579C87;
-  height: 40px;
-  border-radius: 10px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.1em;
-  font-weight: lighter;
+p{
   color: #fdcb46;
-  text-align: center;
-  vertical-align: middle;
+  padding: 4px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.content
+{
+  width: 200px;
+}
+
+.content a { /*titre souligné*/
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+  cursor: default;
+}
+
+.content a:after {
+  content: '';
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  background: #579c87;
+  transition: 0.2s;
+}
+
+.content a:hover:after {
+  width: 100%;
 }
 
 footer{
-  padding: 2px;
+  padding: 3px;
+  margin: auto;
   background-color: #579C87;
   font-family: 'roboto', sans-serif;
   font-size: 1em;
   color: #fdcb46;
   position: absolute;
   bottom: 0;
-  width: 99%;
-  text-align: center;
+  width: 100%;
 }
 
 footer p{
   padding-bottom: 1rem; 
-  margin: 25px;
   text-align: center;
-  line-height: 1em;
+  margin: 6px;
+  padding: 3px;
 }
 
 #gauche{
@@ -143,12 +161,12 @@ footer p{
 }
 
 /*animation wiggle*/
-h5{
+p {
   font-size: 0.8em;
   color: #fdcb46;
 }
 
-h5:hover{
+p:hover{
   -webkit-animation-name: wiggle;
   -ms-animation-name: wiggle;
   -ms-animation-duration: 1000ms;
@@ -174,6 +192,16 @@ h5:hover{
   75% {-ms-transform: rotate(-3deg);}
   100% {-ms-transform: rotate(0deg);}
 }
+
+@keyframes wiggle {
+  0% {transform: rotate(3deg);}
+  25% {transform: rotate(-3deg);}
+  50% {transform: rotate(3deg);}
+  75% {transform: rotate(-3deg);}
+  100% {transform: rotate(0deg);}
+}
+/*fin animation wiggle*/
+
 
 @keyframes wiggle {
   0% {transform: rotate(3deg);}

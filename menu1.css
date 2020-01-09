@@ -2,6 +2,7 @@ body, html{
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 header{
@@ -10,7 +11,7 @@ header{
   background-color: #579C87;
 }
 
-img{
+.logo{
   position: absolute;
   top: 5%;
   left: 50%;
@@ -28,7 +29,6 @@ img{
 .ligne{
   display: flex;
   flex-direction: row;
-  width: 60%;
   justify-content: center;
   align-items : center;
   margin-left: 10%;
@@ -70,12 +70,18 @@ h3{
  font-size: 1.2em;
  text-align: left;
  margin: 2px;
- width: 80%;
+ width: 60%;
+}
+
+.sansprix h3
+{
+  width: 80% !important;
 }
 
 h4{
   text-align: right;
   margin: 2px;
+  width: 20%;
 }
 
 h5{
@@ -110,9 +116,16 @@ p{
   -webkit-text-fill-color: transparent;
 }
 
+.content
+{
+  width: 200px;
+}
+
 .content a { /*titre souligné*/
   text-decoration: none;
   position: relative;
+  color: #3c1218;
+  cursor: default;
 }
 
 .content a:after {
