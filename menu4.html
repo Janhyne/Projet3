@@ -5,97 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La palette du goût</title>
     <link rel="stylesheet" href="menu4.css">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Caveat|Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Caveat|Dancing+Script&amp;display=swap" rel="stylesheet">
   </head>
 
   <body>
   	<header>
-        <img src="images/Logo-ohmyfood.png" alt="logo" />
+        <img src="images/Logo-ohmyfood.png" class="logo" alt="logo" />
     </header>
 
       <h1>La palette du goût</h1>
       
-  <div class="entrees">
-    <table>
-      <tbody>
-        <tr>
-          <td colspan="2">
-            <div id="trait"><hr></div>
-            <div id="trait"><h2>Esquisse</h2></div>
-            <div id="trait"><hr></div>
-            </td>
-        </tr>
-      <tr>
-        <td><h3>Fricassée d'escargot au piment d'Espelette</h3></td>
-        <td><h4>60€</h4></td>
-      </tr>
-      <tr>
-        <td><h3>Oeuf au plat assaisonné à la truffe sur lit de caviar</h3></td>
-        <td><h4>55€</h4></td>
-      <tr>
-        <td><h3>Foie gras de canard mi-cuit et ses copeaux de truffe noire</h3></td>
-        <td><h4>65€</h4></td>
-      </tr>
-    </table>
-  </div>
+  <div id="container">
+       <div class="ligne">
+         <img src="images/trait_4_1.png" class="trait" alt="" />
+       <div class="content"><h2><a href="#">Esquisse</a></h2></div>
+         <img src="images/trait_4_2.png" class="trait2" alt="" />
+       </div>
 
-  <div class="plats">    
-      <table>
-        <tbody>
-        <tr>
-          <td colspan="2">
-            <div id="trait"><hr></div>
-            <div id="trait"><h2>Oeuvre de maître</h2></div>
-            <div id="trait"><hr></div>
-            </td>
-        </tr>
-        <tr>
-          <td><h3>Filet de boeuf aux herbes accompagné de sa ribambelle de légumes</h3></td>
-        <td><h4>70€</h4></td>
-      </tr>
-      <tr>
-        <td><h3>Parmentier de queue de boeuf à la truffe noire sur sa purée de panais</h3></td>
-        <td><h4>85€</h4></td>
-      </tr>
-      <tr>
-        <td><h3>Filet de turbo aux agrumes</h3></td>
-        <td><h4>125€</h4></td>
-      </tr>
-     </table>
-  </div>
+       <div class="ligne">
+           <h3>Fricassée d'escargot au piment d'Espelette</h3>
+           <h4>60€</h4>
+       </div>
+       <div class="ligne">
+           <h3>Oeuf au plat assaisonné à la truffe sur lit de caviar</h3>
+           <h4>55€</h4>
+       </div>
+       <div class="ligne">
+           <h3>Foie gras de canard mi-cuit et ses copeaux de truffe noire</h3>
+           <h4>65€</h4>
+       </div>
+             
+       <div class="ligne">
+        <img src="images/trait_4_1.png" class="trait" alt="" />
+          <div class="content"><h2><a href="#">Oeuvre de maître</a></h2></div>
+        <img src="images/trait_4_2.png" class="trait2" alt="" />
+       </div> 
 
-  <div class="desserts">    
-      <table>
-        <tbody>
-        <tr>
-          <td colspan="2">
-            <div id="trait"><hr></div>
-            <div id="trait"><h2>Au sommet de l'art</h2></div>
-            <div id="trait"><hr></div>
-            </td>
-        </tr>
-        <tr>
-          <td><h3>Paris-Brest revisité</h3></td>
-          <td><h4>55€</h4></td>
-      </tr>
-      <tr>
-        <td><h3>Macaron au chocolat d'exception et glace à la vanille de Madagascar</h3></td>
-        <td><h4>65€</h4></td>
-      </tr>
-      <tr>
-        <td><h3>Mousse au chocolat au piment d'Espelette et à la truffe noire</h3></td>
-        <td><h4>60€</h4></td>
-      </tr>
-    </table>
-  </div>
-
-    <footer class="footer">
+       <div class="ligne">
+            <h3>Filet de boeuf aux herbes accompagné de sa ribambelle de légumes</h3>
+            <h4>70€</h4>
+       </div>
+       <div class="ligne">
+            <h3>Parmentier de queue de boeuf à la truffe noire sur sa purée de panais</h3>
+            <h4>85€</h4>
+            </div>
+       <div class="ligne">
+            <h3>Filet de turbo aux agrumes</h3>
+            <h4>125€</h4>
+       </div>
+            
+       <div class="ligne"> 
+        <img src="images/trait_4_1.png" class="trait" alt="" />
+         <div class="content"><h2><a href="#">Au sommet de l'art</a></h2></div>
+        <img src="images/trait_4_2.png" class="trait2" alt="" />
+       </div>
+  
+        <div class="ligne">
+            <h3>Paris-Brest revisité</h3>
+            <h4>55€</h4>
+        </div>
+        <div class="ligne">
+            <h3>Macaron au chocolat d'exception et glace à la vanille de Madagascar</h3>
+            <h4>65€</h4>
+        </div>
+        <div class="ligne">
+            <h3>Mousse au chocolat au piment d'Espelette et à la truffe noire</h3>
+            <h4>60€</h4>
+        </div>
+      </div>
+    
+        <footer class="footer">
          <a href="mentions.html">
-          <span id="gauche" class="wiggle"><h5>Mentions légales</h5></span>
+          <span id="gauche" class="wiggle"><p>Mentions légales</p></span>
          </a>
          <a href="mailto:j.hy@example.com">
-          <span id="droite" class="wiggle"><h5>Contactez-nous</h5></span>
-         </a>
-    </footer>
+          <span id="droite" class="wiggle"><p>Contactez-nous</p></span>
+        </footer>
   </body>
-</html> 
+</html>

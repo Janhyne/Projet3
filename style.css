@@ -157,22 +157,29 @@ img{
 
 }
 footer{
-	padding: 4px;
-	background-color: #579C87;
-	font-family: 'roboto', sans-serif;
-	font-size: 1em;
+  padding: 3px;
+  margin: auto;
+  background-color: #579C87;
+  font-family: 'roboto', sans-serif;
+  font-size: 1em;
   color: #fdcb46;
   position: absolute;
   bottom: 0;
-  width: 99%;
-  text-align: center;
+  width: 100%;
 }
 
 footer p{
   padding-bottom: 1rem; 
-  margin-right: 10px;
   text-align: center;
-  line-height: 1em;
+  font-weight: lighter;
+  margin: 6px;
+  padding: 3px;
+}
+
+h3{
+  font-family: 'roboto', sans-serif;
+  font-size: 1em;
+  color: #fdcb46;
 }
 
 #gauche{
