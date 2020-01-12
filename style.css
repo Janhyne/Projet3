@@ -65,11 +65,15 @@ img{
   font-size: 1em;
   font-weight: lighter;
   color: #3c1218;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 
 #item1 p{
   padding-top: 0;
+}
+
+#item1 h2{
+  padding-bottom: 30px;
 }
 
 #item2{
@@ -80,6 +84,10 @@ img{
   background: linear-gradient(to right, #c77412 20%, #9b62db 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#item2 h2{
+  padding-top: 35px;
 }
 
 #item3{
@@ -93,6 +101,10 @@ img{
   font-weight: lighter;
 }
 
+#item3 h2{
+  padding-top: 29px;
+}
+
 #item4{
   background-color: #fdfffd;
   padding-top: 70px;
@@ -101,6 +113,10 @@ img{
   -webkit-text-fill-color: transparent;
   font-family: 'Kaushan Script', cursive;
   font-size: 1em;
+}
+
+#item4 h2{
+  padding-top: 27px;
 }
 
 .center-div{
@@ -166,7 +182,7 @@ footer{
   color: #fdcb46;
   position: absolute;
   bottom: 0;
-  width: 99%;
+  width: 99.5%;
 }
 
 footer p{
@@ -174,7 +190,7 @@ footer p{
   text-align: center;
   font-weight: lighter;
   margin: 6px;
-  padding: 3px;
+  padding: 2px;
 }
 
 #gauche{
