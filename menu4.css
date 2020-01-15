@@ -195,8 +195,11 @@ p:hover{
 }
 /*fin animation wiggle*/
 
-@media screen and (max-width: 700px){
+@media all and (max-width: 992px){
   .container{
   flex-direction: row;
  }
 }
+
+/* Pour les tablettes, passer de 4 à 2 colonnes */
+/* Pour les smartphones, aligner verticalement les colonnes */

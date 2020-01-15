@@ -37,6 +37,18 @@ header{
   margin-top: 5px;
 }
 
+/*.orange h2{
+  color: #c67412;
+}
+
+.rose h2{
+  color: #a56799;
+}
+
+.violet h2{
+  color: #6e4ccc;
+}*/
+
 h1, h2, h3{
   font-family: 'Gabriela', serif;
   font-weight: lighter;
@@ -56,7 +68,7 @@ h1{
 
 h2{
   font-size: 1.1em;
-  color: #c67412;
+  /*color: #c67412;*/
   font-stretch: condensed;
   margin-top: 15px;
   margin-left: auto;
@@ -99,28 +111,6 @@ h4{
   width: 20%;
 }
 
-.entrees, .plats, .desserts{
-  font-family: 'Gabriela', serif;
-  font-size: 0.8em;
-  text-align: left;
-  margin-left: 100px;
-  margin-right: 100px;
-  line-height: 1%;
-  padding: 5px;
-}
-
-.entrees{
-  color: #c67412;
-}
-
-.plats{
-  color: #a56799;
-}
-
-.desserts{
-  color: #6e4ccc;
-}
-
 .content
 {
   width: 200px;
@@ -128,6 +118,7 @@ h4{
 
 .content a { /*titre souligné*/
   text-decoration: none;
+  color: #000000;
   position: relative;
   cursor: default;
 }
