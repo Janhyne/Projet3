@@ -22,12 +22,14 @@ header{
   height: 40px;
 }
 
+/* Mise en place de la flexbox */
 .container{
   display: flex;
   flex-direction : column;
   justify-content: center;
 }
 
+/* Mise en place des catégories du menu */
 .ligne{
   display: flex;
   flex-direction: row;
@@ -35,7 +37,7 @@ header{
   align-items : center;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 5px;
+  margin-top: 1px;
 }
 
 
@@ -110,12 +112,13 @@ h4{
   width: 20%;
 }
 
+/* Animation titres soulignés */
 .content
 {
   width: 200px;
 }
 
-.content a { /*titre souligné*/
+.content a{ 
   text-decoration: none;
   position: relative;
   cursor: default;
@@ -136,6 +139,7 @@ h4{
   width: 100%;
 }
 
+/* Pied de page */
 footer{
   padding: 3px;
   margin: auto;
@@ -145,7 +149,7 @@ footer{
   color: #fdcb46;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 98.5%;
 }
 
 footer p{
@@ -163,44 +167,45 @@ footer p{
   float: right;
 }
 
-/*animation wiggle*/
+/* Animation wiggle/jelly*/
 p {
   font-size: 0.8em;
   color: #fdcb46;
 }
 
 p:hover{
-  -webkit-animation-name: wiggle;
-  -ms-animation-name: wiggle;
-  -ms-animation-duration: 1000ms;
-  -webkit-animation-duration: 1000ms;
-  -webkit-animation-iteration-count: 1;
-  -ms-animation-iteration-count: 1;
-  -webkit-animation-timing-function: ease-in-out;
-  -ms-animation-timing-function: ease-in-out;
+  font-size: 0.8em;
+  color: #fdcb46;
 }
 
-@-webkit-keyframes wiggle {
-  0% {-webkit-transform: rotate(3deg);}
-  25% {-webkit-transform: rotate(-3deg);}
-  50% {-webkit-transform: rotate(3deg);}
-  75% {-webkit-transform: rotate(-3deg);}
-  100% {-webkit-transform: rotate(0deg);}
+p:hover{
+  font-size: inherit;
+  font-family: inherit;
+  color: #fdcb46;
+  padding: 0.3em 1em;
+  outline: none;
+  border: none;
+  background-color: #579C87;
 }
 
-@-ms-keyframes wiggle {
-  0% {-ms-transform: rotate(3deg);}
-  25% {-ms-transform: rotate(-3deg);}
-  50% {-ms-transform: rotate(3deg);}
-  75% {-ms-transform: rotate(-3deg);}
-  100% {-ms-transform: rotate(0deg);}
+p:hover {
+  cursor: pointer;
+  animation: jelly 0.5s;
 }
 
-@keyframes wiggle {
-  0% {transform: rotate(3deg);}
-  25% {transform: rotate(-3deg);}
-  50% {transform: rotate(3deg);}
-  75% {transform: rotate(-3deg);}
-  100% {transform: rotate(0deg);}
+@keyframes jelly {
+  0%,
+  100% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
 }
-/*fin animation wiggle*/
+/* fin animation wiggle/jelly */
