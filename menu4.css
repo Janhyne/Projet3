@@ -36,7 +36,6 @@ header{
   margin-right: 10%;
 }
 
-
 h1, h2, h3{
   font-family: 'Caveat', serif;
   font-weight: lighter;
@@ -194,12 +193,3 @@ p:hover{
   100% {transform: rotate(0deg);}
 }
 /*fin animation wiggle*/
-
-@media all and (max-width: 992px){
-  .container{
-  flex-direction: row;
- }
-}
-
-/* Pour les tablettes, passer de 4 à 2 colonnes */
-/* Pour les smartphones, aligner verticalement les colonnes */

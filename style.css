@@ -26,6 +26,7 @@ img{
     justify-content: space-around;
     align-content: space-around;
     width: 100%;
+    /* height: 250px; */
     margin: 90px 0px;
 }
 
@@ -65,7 +66,6 @@ img{
   font-weight: lighter;
   color: #3c1218;
   padding-top: 80px;
-  height: 230px;
 }
 
 #item1 p{
@@ -84,7 +84,6 @@ img{
   background: linear-gradient(to right, #c77412 20%, #9b62db 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  height: 230px;
 }
 
 #item2 h2{
@@ -100,9 +99,7 @@ img{
   font-family: 'Dancing Script', cursive;
   font-size: 1em;
   font-weight: lighter;
-  height: 240px;
 }
-
 
 #item3 h2{
   padding-top: 29px;
@@ -116,7 +113,6 @@ img{
   -webkit-text-fill-color: transparent;
   font-family: 'Kaushan Script', cursive;
   font-size: 1em;
-   height: 240px;
 }
 
 #item4 h2{
@@ -133,16 +129,16 @@ img{
 }
 
 .section, .center-div{
-  margin-top: -50px;
+  margin-top: 125px;
   background-color: #579C87;
   height: 40px;
-  width: 200px;
   border-radius: 10px;
   font-family: 'Roboto', sans-serif;
   font-size: 1.1em;
   font-weight: lighter;
   color: #fdcb46;
   text-align: center;
+  vertical-align: middle;
 }
 
 .loading-container
@@ -175,6 +171,12 @@ img{
   to {
     width: 1.25em;    
   }/* fin animation points de suspension*/
+
+/*animation zoom*/
+.zoom{
+  font-size: 2em;
+  transition: transform 0.2s linear;
+}
 
 }
 footer{
@@ -217,11 +219,11 @@ footer a{
 /*animation zoom*/
 .menu:hover
 {
-  transform: scale(1.1);
+  transform: scale(1.2);
   transition: 1s ease;
 }
 
-/*animation opacité*/
+/*animation opacity*/
 .menu {
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
