@@ -225,7 +225,7 @@ footer a{
   opacity: .5;
 }/* fin animation opacité */
 
-/* animation wiggle */
+/* animation wiggle/jelly */
 p:hover{
   font-size: inherit;
   font-family: inherit;
@@ -256,4 +256,4 @@ p:hover {
     transform: scale(0.95, 1.05);
   }
 }
-/* fin animation wiggle */
+/* fin animation wiggle/jelly */
