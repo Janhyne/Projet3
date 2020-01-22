@@ -23,10 +23,12 @@ header{
 }
 
 /* Mise en place de la flexbox */
-.container{
+#container{
   display: flex;
   flex-direction : column;
   justify-content: center;
+  padding-bottom: 80px;
+
 }
 
 /* Mise en place des catégories du menu */
@@ -53,7 +55,7 @@ h1{
 }
 
 h2{
-  font-size: 1.3em;
+  font-size: 1.6em;
   font-stretch: condensed;
   margin-top: 5px;
   margin-left: auto;
@@ -137,23 +139,17 @@ p{
   width: 100%;
 }
 
+/*pied de page*/
 footer{
-  padding: 3px;
-  margin: auto;
+  position: fixed;
   background-color: #579C87;
   font-family: 'roboto', sans-serif;
   font-size: 1em;
   color: #fdcb46;
-  position: absolute;
   bottom: 0;
   width: 100%;
-}
-
-footer p{
-  padding-bottom: 1rem; 
-  text-align: center;
-  margin: 6px;
-  padding: 3px;
+  height: 20px;
+  padding: 2vh;
 }
 
 #gauche{
@@ -162,35 +158,11 @@ footer p{
 
 #droite{
   float: right;
+  margin: 0 25px;
 }
 
-/*animation wiggle*/
-p{
-  font-size: 0.8em;
-  color: #fdcb46;
-}
-
-p:hover{/* Animation wiggle/jelly*/
-  font-size: 0.8em;
-  color: #fdcb46;
-}
-
-p:hover{
-  font-size: 0.8em;
-  color: #fdcb46;
-}
-
-p:hover{
-  font-size: inherit;
-  font-family: inherit;
-  color: #fdcb46;
-  padding: 0.3em 1em;
-  outline: none;
-  border: none;
-  background-color: #579C87;
-}
-
-p:hover {
+/* animation wiggle/jelly */
+#gauche:hover, #droite:hover {
   cursor: pointer;
   animation: jelly 0.5s;
 }
@@ -206,6 +178,11 @@ p:hover {
   50% {
     transform: scale(1.1, 0.9);
   }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
+/* fin animation wiggle/jelly */
   75% {
     transform: scale(0.95, 1.05);
   }

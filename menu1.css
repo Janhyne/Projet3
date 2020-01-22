@@ -4,6 +4,7 @@ body, html{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background-color: #fcdfdb;
 }
 
 header{
@@ -11,6 +12,11 @@ header{
   top: 0;
   margin: 0;
   background-color: #579C87;
+}
+.note-top
+{
+  text-align: center;
+  padding-top: 20px;
 }
 
 .logo{
@@ -23,10 +29,11 @@ header{
 }
 
 /* Mise en place de la flexbox */
-.container{
+#container{
   display: flex;
   flex-direction : column;
   justify-content: center;
+  padding-bottom: 0;
 }
 
 /* Mise en place des menus */
@@ -156,24 +163,22 @@ p{
   width: 100%;
 }
 
-/* Pied de page*/
+section
+{
+  padding-bottom: 100px;
+}
+
+/*pied de page*/
 footer{
-  padding: 3px;
-  margin: auto;
+  position: fixed;
   background-color: #579C87;
   font-family: 'roboto', sans-serif;
   font-size: 1em;
   color: #fdcb46;
-  position: absolute;
   bottom: 0;
   width: 100%;
-}
-
-footer p{
-  padding-bottom: 1rem; 
-  text-align: center;
-  margin: 6px;
-  padding: 3px;
+  height: 20px;
+  padding: 2vh;
 }
 
 #gauche{
@@ -182,25 +187,11 @@ footer p{
 
 #droite{
   float: right;
+  margin: 0 25px;
 }
 
-/*animation wiggle/jelly*/
-p {
-  font-size: 0.8em;
-  color: #fdcb46;
-}
-
-p:hover{
-  font-size: inherit;
-  font-family: inherit;
-  color: #fdcb46;
-  padding: 0.3em 1em;
-  outline: none;
-  border: none;
-  background-color: #579C87;
-}
-
-p:hover {
+/* animation wiggle/jelly */
+#gauche:hover, #droite:hover {
   cursor: pointer;
   animation: jelly 0.5s;
 }

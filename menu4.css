@@ -126,25 +126,17 @@ h4{
   width: 100%;
 }
 
-/* Pied de page */
+/*pied de page*/
 footer{
   position: fixed;
-  padding: 3px;
-  margin: auto;
   background-color: #579C87;
   font-family: 'roboto', sans-serif;
   font-size: 1em;
   color: #fdcb46;
-  position: absolute;
   bottom: 0;
-  width: 98%;
-}
-
-footer p{
-  padding-bottom: 1rem; 
-  text-align: center;
-  margin: 6px;
-  padding: 3px;
+  width: 100%;
+  height: 20px;
+  padding: 2vh;
 }
 
 #gauche{
@@ -153,30 +145,11 @@ footer p{
 
 #droite{
   float: right;
+  margin: 0 25px;
 }
 
-/* Animation wiggle/jelly*/
-p {
-  font-size: 0.8em;
-  color: #fdcb46;
-}
-
-p:hover{
-  font-size: 0.8em;
-  color: #fdcb46;
-}
-
-p:hover{
-  font-size: inherit;
-  font-family: inherit;
-  color: #fdcb46;
-  padding: 0.3em 1em;
-  outline: none;
-  border: none;
-  background-color: #579C87;
-}
-
-p:hover {
+/* animation wiggle/jelly */
+#gauche:hover, #droite:hover {
   cursor: pointer;
   animation: jelly 0.5s;
 }
