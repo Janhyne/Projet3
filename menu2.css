@@ -1,6 +1,5 @@
 /* le chic à la française */
 body, html{
-  height: 100%;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -8,7 +7,6 @@ body, html{
 
 header{
   padding-top: 35px;
-  top: 0;
   margin: 0;
   background-color: #579C87;
 }
@@ -27,7 +25,7 @@ header{
   display: flex;
   flex-direction : column;
   justify-content: center;
-  padding-bottom: 140px;
+  padding-bottom: 80px;
 }
 
 /* Mise en place des catégories du menu */
@@ -38,9 +36,8 @@ header{
   align-items : center;
   margin-left: 10%;
   margin-right: 10%;
-  width: 80%;
+  line-height: 15px;
 }
-
 
 h1, h2, h3{
   font-family: 'Gabriela', serif;
@@ -64,19 +61,19 @@ h1, h2{
 
 h1{
   background-color: #fff5fe;
-  font-size: 2em;
+  font-size: 1.8em;
   background: linear-gradient(to right, #c67412 45%, #6e4ccc 55%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 h2{
-  font-size: 1.1em;
+  font-size: 1em;
   font-stretch: condensed;
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
-  width: 110%;
+  width: 100%;
 }
 
 h3{
@@ -148,9 +145,10 @@ footer{
   font-size: 1em;
   color: #fdcb46;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
   height: 20px;
-  padding: 2vh;
+  padding: 1rem 2rem;
 }
 
 #gauche{
@@ -160,6 +158,11 @@ footer{
 #droite{
   float: right;
   margin: 0 25px;
+}
+
+/* animation au clic */
+footer a{
+color: #fdcb46;
 }
 
 /* Animation wiggle/jelly*/

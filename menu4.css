@@ -1,6 +1,5 @@
 /* la palette du goût */
 body, html{
-  height: 100%;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -8,7 +7,6 @@ body, html{
 
 header{
   padding-top: 35px;
-  top: 0;
   margin: 0;
   background-color: #579C87;
 }
@@ -23,7 +21,7 @@ header{
 }
 
 /* Mise en place de la flexbox */
-.container{
+#container{
   display: flex;
   flex-direction : column;
   justify-content: center;
@@ -37,7 +35,7 @@ header{
   align-items : center;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 2px;
+  line-height: 11px;
 }
 
 h1, h2, h3{
@@ -52,7 +50,6 @@ h1, h2{
 h1{
   background-color: #fff5fe;
   font-size: 2em;
-  margin-top: 15px;
   background: linear-gradient(to right, #62b24e 0%, #bffe7e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -60,7 +57,7 @@ h1{
 }
 
 h2{
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-stretch: condensed;
   margin-top: 5px;
   margin-left: auto;
@@ -85,14 +82,14 @@ h2{
 }
 
 h3{
-  font-size: 1.3em;
+  font-size: 1.1em;
   text-align: left;
   margin: 12px;
   width: 70%;
 }
 
 h4{
-  font-size: 1em;
+  font-size: 0.9em;
   text-align: right;
   margin: 2px;
   width: 15%;
@@ -134,9 +131,10 @@ footer{
   font-size: 1em;
   color: #fdcb46;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
   height: 20px;
-  padding: 2vh;
+  padding: 1rem 2rem;
 }
 
 #gauche{
@@ -146,6 +144,11 @@ footer{
 #droite{
   float: right;
   margin: 0 25px;
+}
+
+/* animation au clic */
+footer a{
+color: #fdcb46;
 }
 
 /* animation wiggle/jelly */

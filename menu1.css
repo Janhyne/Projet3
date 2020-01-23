@@ -1,6 +1,5 @@
 /* La note enchantée */
 body, html{
-  height: 100%;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -9,10 +8,10 @@ body, html{
 
 header{
   padding-top: 35px;
-  top: 0;
   margin: 0;
   background-color: #579C87;
 }
+
 .note-top
 {
   text-align: center;
@@ -128,13 +127,6 @@ h3, h4{
   line-height: 85%;
 }
 
-p{
-  color: #fdcb46;
-  padding: 4px;
-  margin: auto;
-  margin-top: 15px;
-}
-
 /* Animation titres soulignés*/
 .content
 {
@@ -163,6 +155,7 @@ p{
   width: 100%;
 }
 
+/* icone note bas de page */
 section
 {
   padding-bottom: 100px;
@@ -176,9 +169,10 @@ footer{
   font-size: 1em;
   color: #fdcb46;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
   height: 20px;
-  padding: 2vh;
+  padding: 1rem 2rem;
 }
 
 #gauche{
@@ -188,6 +182,11 @@ footer{
 #droite{
   float: right;
   margin: 0 25px;
+}
+
+/* animation au clic */
+footer a{
+color: #fdcb46;
 }
 
 /* animation wiggle/jelly */
