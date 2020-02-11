@@ -36,7 +36,7 @@ header{
 }
 
 /* Mise en place des menus */
-.ligne{
+.ligne, .lignetop{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -211,3 +211,16 @@ color: #fdcb46;
   }
 }
 /* fin animation wiggle/jelly */
+
+@media screen and (max-width: 480px)
+{
+  .ligne
+  {
+    flex-direction: column;
+  }
+
+  h3, h4
+  {
+    width: 100%;
+  }
+}
